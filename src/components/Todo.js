@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Modal from "./Modal";
 import Backdrop from "./Backdrop";
+import Loop from "./Loop";
 
 function Todo(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -33,6 +34,7 @@ function Todo(props) {
         <button onClick={() => setAge(age + 1) & setCount(count - 1)}>
           Delete me
         </button>
+        <Loop />
       </div>
     </div>
   );

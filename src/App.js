@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <div>
-        <h1 className="pay">My Todos</h1>
+        <h1 className="pay">My New React to- Do List</h1>
         <Baiana />
         <div className="yo">
           <Todo text=" Hello World wide" />
