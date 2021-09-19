@@ -1,5 +1,5 @@
 import React from "react";
-const names = ["James", "Paul", "John", "George", "Ringo"];
+const names = ["James", "Paul", "John", "George", "Ringo", "kurt"];
 
 function Loop() {
   return (

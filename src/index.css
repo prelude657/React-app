@@ -17,6 +17,13 @@ h2 {
   padding-top: 10px;
   text-align: center;
   background-color: white;
+  border: solid;
+  width: 90%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+  padding: 2px;
 }
 
 .norepeat {
@@ -47,11 +54,13 @@ h2 {
 .btn:hover {
   background-color: #9c1458;
   border-color: #9c1458;
+  margin-top: 4px;
 }
 
 .btn--alt {
   background-color: transparent;
   color: #800040;
+  margin-bottom: 5px;
 }
 
 .btn--alt:hover {
@@ -76,6 +85,7 @@ h2 {
   display: flex;
   align-items: auto;
   width: 100%;
+  margin: auto;
 }
 
 .hendo {
@@ -88,10 +98,11 @@ h2 {
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border: solid;
-  border-width: 5px;
+  border-width: 2px;
   padding-bottom: 25px;
+
   width: 50%;
-  margin: 3px;
+  margin: 2px;
 }
 
 .pay {
