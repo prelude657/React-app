@@ -10,6 +10,7 @@ function Modal(props) {
   }
 
   return (
+    /* Modal with buttons */
     <div className="modal">
       <p>Are You Sure?</p>
       <button className="btn btn--alt" onClick={cancelHandler}>
